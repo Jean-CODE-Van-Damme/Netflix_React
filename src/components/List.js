@@ -4,7 +4,7 @@ const List = ({ urlList = [] }) => {
   return urlList.map((url) => {
     return (
       <div className="pictures">
-        <img src={url} alt=" image de film"></img>
+        <img src={url} alt=" titre de film"></img>
       </div>
     );
   });

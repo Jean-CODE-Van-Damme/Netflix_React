@@ -4,11 +4,13 @@ import List from "./List";
 const Section = ({ title = "", urlList = [] }) => {
   return (
     <>
-      <main className="container">
-        <CategoryTitle title={title} />
+      <main>
+        <div className="container">
+          <CategoryTitle title={title} />
 
-        <div className="list_picture">
-          <List urlList={urlList} />
+          <div className="list_picture">
+            <List urlList={urlList} />
+          </div>
         </div>
       </main>
     </>

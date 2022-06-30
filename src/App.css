@@ -10,10 +10,6 @@ body {
   /* background-color: gold; */
 }
 
-main {
-  width: 100%;
-}
-
 header {
   /* background-color: red; */
   height: 100px;
@@ -21,6 +17,10 @@ header {
   box-sizing: border-box;
   margin-bottom: 20px;
   width: 100%;
+}
+
+main {
+  padding: 0 20px;
 }
 
 h1 {
